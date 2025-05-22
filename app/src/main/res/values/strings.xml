@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MyBrain</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="Profile">Профиль</string>
+    <string name="Cards">Карточки</string>
+    <string name="MainPage">Главная страница</string>
+    <string name="Teory">Теория</string>
+    <!-- Заголовки -->
+    <string name="math_profile_title">📐 Математика (Профиль)</string>
+    <string name="math_base_title">🧮 Математика (База)</string>
+    <string name="physics_title">⚛️ Физика</string>
+    <string name="russian_title">📖 Русский язык</string>
+
+    <!-- Темы для профильной математики -->
+    <string name="math_profile_topic1">• Планиметрия: ключевые теоремы</string>
+    <string name="math_profile_topic2">• Стереометрия: объемы фигур</string>
+    <string name="math_profile_topic3">• Тригонометрические уравнения</string>
+    <string name="math_profile_topic4">• Производные и интегралы</string>
+    <string name="select_subject_dialog_title">Выберите предмет</string>
+    <string name="cancel">Отмена</string>
+    <string name="select_subject_default">Выбрать предмет</string>
+    <string name="select_subject_warning">Пожалуйста, выберите предмет!</string>
+    <string name="favorite_subjects_header">Избранные предметы:</string>
+    <string name="general_error">Произошла ошибка. Попробуйте позже.</string>
+
+    <!-- Темы для базовой математики -->
+    <string name="math_base_topic1">• Решение текстовых задач</string>
+    <string name="math_base_topic2">• Основы геометрии</string>
+    <string name="math_base_topic3">• Вероятность и статистика</string>
+
+    <!-- Темы для физики -->
+    <string name="physics_topic1">• Кинематика: законы движения</string>
+    <string name="physics_topic2">• Термодинамика: циклы Карно</string>
+    <string name="physics_topic3">• Электродинамика: цепи постоянного тока</string>
+
+    <!-- Темы для русского языка -->
+    <string name="russian_topic1">• Орфография: правило -н-/-нн-</string>
+    <string name="russian_topic2">• Пунктуация: сложные предложения</string>
+    <string name="russian_topic3">• Сочинение: структура эссе</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Главная" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/cards"
+        android:title="@string/Cards" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/man"
+        android:title="@string/Profile" />
+    <item
+        android:id="@+id/nav_theory"
+        android:icon="@drawable/free_icon_open_book_171322"
+        android:title="@string/Teory" />
+
+
+</menu>

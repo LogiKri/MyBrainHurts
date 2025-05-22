@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcedd6">
+
+    <Button
+        android:id="@+id/RegButton"
+        android:layout_width="318dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#795641"
+        android:text="Регистрация"
+        android:textColor="#FFFF"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextPasswordC"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <Button
+        android:id="@+id/ForPass"
+        android:layout_width="166dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#cea77f"
+        android:text="Забыли пароль?"
+        android:textColor="#FFFF"
+        app:cornerRadius="16dp"
+        android:textSize="4pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegButton"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <EditText
+        android:id="@+id/TextEmailAddress"
+        android:hint="Введите эмейл"
+        android:textStyle="bold|italic"
+        android:textColorHint="#6f5852"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="252dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#6f5852"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TextPasswordC"
+        android:layout_width="297dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Введите пароль"
+        android:textColorHint="#6f5852"
+        android:textStyle="bold|italic"
+        android:inputType="textPassword"
+        android:textColor="#6f5852"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextEmailAddress"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BrainBooster"
+        android:textSize="19pt"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="#6f5852"
+        app:layout_constraintBottom_toTopOf="@+id/TextEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+</androidx.constraintlayout.widget.ConstraintLayout>
